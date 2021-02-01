@@ -20,7 +20,8 @@
             </TabItem>
 
             <TabItem Header="Content">
-                <Grid>
+                <Grid
+                    x:Name="webHost">
                     <wpf:WebView2
                         x:Name="browser"
                         />
